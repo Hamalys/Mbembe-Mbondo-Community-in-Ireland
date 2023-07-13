@@ -61,6 +61,8 @@ h2 {
 #menu,
 #logo {
     line-height: 75px;
+    font-size: 280%;
+    margin: left 300px; ;
 }
 
 #menu li {
@@ -90,9 +92,23 @@ h2 {
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
 }
 
-#cover-text,
+#cover-text {
+    font-size: 120%;
+    font-family: lato, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    width: 300px;
+    height: 100px;
+    background-color:
+        rgba(243, 109, 107, .7);
+    bottom: 20px;
+    left: 130px;
+    position: absolute;
+}
+
 #cover-text h2,
 h3 {
     color: #fff;
