@@ -147,18 +147,41 @@ h3 {
 
 #left-about {
     float: left;
-    width: 30%;
-    padding-top: 30px;
+    width: 50%;
+    padding: 20px;
+}
+
+.left-about-heading {
+    margin-bottom: 20px;
+}
+
+.left-about-heading h2 {
+    font-size: 20px;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.left-about-heading hr {
+    border: none;
+    height: 1px;
+    background-color: #ccc;
+    margin-bottom: 10px;
+    clear: both;
+}
+
+.left-about-heading p {
+    font-size: 16px;
+    color: #777;
 }
 
 #right-about {
     float: right;
     width: 30%;
-    padding: top 30px;
-    ;
+    padding: 20px;
 }
 
 #center-about {
     margin: 0 auto;
-    width: 40;
+    width: 40%;
+    padding: 20px;
 }
