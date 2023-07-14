@@ -369,15 +369,50 @@ h3 {
 
 /* event time */
 
-    .tree {
-            background-image: url('../assets/images/hey\ p.avif');
-            background-repeat: no-repeat;
-            background-size: cover;
+.tree {
+    background-image: url('../assets/images/hey\ p.avif');
+    background-repeat: no-repeat;
+    background-size: cover;
     background-position: center;
     width: 100%;
     overflow: hidden;
     color: #355143;
     float: left;
+}
 
+/*footer*/
+footer {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+}
 
+ul.social-network-icon {
+    list-style: none;
+    padding: 5%;
+    font-size: 160%;
+}
+
+ul.social-network-icon li {
+    display: inline-block;
+    margin: 1%;
+}
+
+ul.social-network-icon li a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: #333;
+    font-size: 20px;
+    text-decoration: none;
+    border-radius: 50%;
+    background-color: #fff;
+    transition: background-color 0.3s ease;
+}
+
+ul.social-network-icon li a:hover {
+    background-color: #007bff;
+    color: #fff;
 }
