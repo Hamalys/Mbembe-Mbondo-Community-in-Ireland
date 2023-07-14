@@ -366,3 +366,18 @@ h3 {
     margin-top: 20px;
     position: relative;
 }
+
+/* event time */
+
+    .tree {
+            background-image: url('../assets/images/hey\ p.avif');
+            background-repeat: no-repeat;
+            background-size: cover;
+    background-position: center;
+    width: 100%;
+    overflow: hidden;
+    color: #355143;
+    float: left;
+
+
+}
