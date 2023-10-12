@@ -90,7 +90,6 @@ h2 {
     text-transform: uppercase;
     letter-spacing: 3px;
     width: 300px;
-    height: 100px;
     background-color: rgba(243, 109, 107, .7);
     bottom: 20px;
     left: 130px;
@@ -128,7 +127,7 @@ h3 {
 
 #left-about,
 #right-about {
-    width: 50%;
+    width: 90%;
     padding: 20px;
 }
 
@@ -140,8 +139,8 @@ h3 {
 .left-about-heading h2,
 .right-about-heading h2 {
     font-size: 20px;
-    color: #555;
-    margin-bottom: 10px;
+    color: black;
+    margin-bottom: black;
 }
 
 .left-about-heading hr,
@@ -157,6 +156,7 @@ h3 {
 .right-about-heading p {
     font-size: 16px;
     color: #777;
+    font-weight: 700;
 }
 
 #center-about {
@@ -420,8 +420,16 @@ ul.social-network-icon li a:hover {
     text-align: center;
     padding: 0 20px;
 }
-#photos{column-count: 3;}
-/* for small screen size 800px and down*/
-@media screen and{max-width: 800px; 
+
+#photos {
+    column-count: 3;
 }
-#photos{column-count: 2;}
+
+/* for small screen size 800px and down*/
+@media screen and {
+    max-width: 800px;
+}
+
+#photos {
+    column-count: 2;
+}
