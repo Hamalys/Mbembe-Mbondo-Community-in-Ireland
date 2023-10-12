@@ -384,7 +384,7 @@ ul.social-network-icon li a:hover {
 }
 
 /* for medium screen sizes from 950px wide and down */
-@media screen and (max-width: 950) {
+@media screen and (max-width: 950px) {
     #menu {
         clear: left;
         float: left;
