@@ -384,7 +384,7 @@ ul.social-network-icon li a:hover {
 }
 
 /* for medium screen sizes from 950px wide and down */
-@media and (max-width: 950; ) {
+@media screen and (max-width: 950) {
     #menu {
         clear: left;
         float: left;
@@ -426,10 +426,9 @@ ul.social-network-icon li a:hover {
 }
 
 /* for small screen size 800px and down*/
-@media screen and {
-    max-width: 800px;
-}
+@media screen and (max-width: 800px)
+{
 
 #photos {
     column-count: 2;
-}
+}}
