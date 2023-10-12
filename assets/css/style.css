@@ -351,7 +351,7 @@ ul.social-network-icon li a:hover {
 /* media queries */
 /* for large to medium screen size from 1200px wide and down*/
 @media screen and(max-width:1200px) {
-    #welcme-mmbondo {
+    #welcome-mmbondo {
         width: 65%;
         height: 1200px;
         margin: 0 auto;
@@ -404,11 +404,6 @@ ul.social-network-icon li a:hover {
     margin: auto;
 }
 
-.left-about-heading,
-.right-about-heading {
-    width: inherit;
-}
-
 .left-about-heading h2,
 .right-about-heading h2 {
     width: 100%;
@@ -419,10 +414,6 @@ ul.social-network-icon li a:hover {
 .right-about-heading p {
     text-align: center;
     padding: 0 20px;
-}
-
-#photos {
-    column-count: 3;
 }
 
 /* for small screen size 800px and down*/
