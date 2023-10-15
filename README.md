@@ -1,39 +1,67 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
-Welcome,
+# M'MBEMBE MBONDO COMMUNITY IN IRELAND
 
-This is the Code Institute student template for Codeanywhere. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+Welcome to the M'MBEMBE MBONDO COMMUNITY IN IRELAND project repository. This project aims to provide information about the Babembe community in Ireland and the contributions they make to the Irish community.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **May 11th, 2023**
+## Table of Contents
 
-## Codeanywhere Reminders
+- [M'MBEMBE MBONDO COMMUNITY IN IRELAND](#mmbembe-mbondo-community-in-ireland)
+  - [Table of Contents](#table-of-contents)
+  - [About](#about)
+  - [Getting Started](#getting-started)
+  - [Getting Started](#getting-started-1)
+  - [Features](#features)
+  - [Contributing](#contributing)
+  - [License](#license)
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+## About
 
-`python3 -m http.server`
+The M'MBEMBE MBONDO COMMUNITY IN IRELAND project is a website that introduces the Babembe community in Ireland and sheds light on their contributions to the Irish community. It provides an overview of their mission, activities, and contact information.
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+## Getting Started
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+Great! If your site is deployed on GitHub Pages, you can provide the GitHub Pages URL in your README under the "Getting Started" section. Here's an updated version of that section:
 
-`http_server`
+## Getting Started
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+To access the deployed website, simply visit the GitHub Pages URL for this project:
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+[**M'MBEMBE MBONDO COMMUNITY IN IRELAND on GitHub Pages**](https://github.com/Hamalys/Mbembe-Mbondo-Community-in-Ireland)
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+Click the link above to view the website online.
 
-To log into the Heroku toolbelt CLI:
+This link will allow users to access your site directly without downloading the project.
+To view the website, you can either download the project and open the HTML files in your web browser or access it online through the provided URL. Follow these steps:
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+1. **Download and Open Locally:**
+   - Click the "Code" button on this repository and choose "Download ZIP."
+   - Extract the ZIP file to a folder on your computer.
+   - Open the HTML files in your preferred web browser.
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+2. **Access Online:**
+   - Visit the project website at <https://github.com/Hamalys/Mbembe-Mbondo-Community-in-Ireland.>
 
----
+## Features
 
-Happy coding!
+- Introduction to the M'MBEMBE MBONDO COMMUNITY IN IRELAND.
+- Information about the Babembe community and their mission.
+- Details on the community's contributions to the Irish society.
+- Contact form for inquiries and feedback.
+- Links to social media channels.
+
+## Contributing
+
+If you would like to contribute to this project, please follow these steps:
+
+1. Fork the repository to your GitHub account.
+2. Clone the forked repository to your local machine.
+3. Create a new branch for your feature or bug fix.
+4. Make your changes and commit them.
+5. Push your changes to your fork on GitHub.
+6. Create a pull request to merge your changes into this repository.
+
+## License
+
+This project is licensed under the hamalys License .
+
+Replace `https://github.com/Hamalys/Mbembe-Mbondo-Community-in-Ireland` with the actual URL where your website is hosted. Also, update the license information with the appropriate license that applies to your project. Feel free to expand the README with more details specific to your project's needs.
