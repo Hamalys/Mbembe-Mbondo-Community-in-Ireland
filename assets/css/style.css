@@ -88,10 +88,7 @@ h2 {
     height: 500px;
     background: url('assets/images/hey3.jpg') no-repeat center center;
     background-size: 100% auto;
-    display: flex;
-    justify-content: center;
-    align-items: full;
-    position: relative;
+   
 }
 
 #cover-text {
