@@ -338,6 +338,10 @@ footer {
     text-align: center;
 }
 
+.social-network-icon {
+    color: #333;
+
+}
 ul.social-network-icon {
     list-style: none;
     padding: 5%;
