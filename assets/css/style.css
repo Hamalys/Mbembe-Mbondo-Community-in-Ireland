@@ -87,10 +87,10 @@ h2 {
     width: 100%;
     height: 500px;
     background: url('assets/images/hey p.avif') no-repeat center center;
-    background-size: 100% 100%;
+    background-size: 100% auto;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: full;
     position: relative;
 }
 
