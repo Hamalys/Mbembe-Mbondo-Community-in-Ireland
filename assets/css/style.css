@@ -208,11 +208,12 @@ h3 {
 }
 
 #center-about #circle-container #circle-cover-bg {
-    background: url('../assets/images/hey3.jpg') no-repeat center center;
-    height: 100%;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
+    background: url('../assets/images/hey3.jpg') no-repeat center center;
+    background-size: cover;
 }
-
 .tree ul {
     padding-top: 20px;
     position: relative;
