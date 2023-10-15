@@ -28,13 +28,13 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px;
+    padding: 20px;
     background-color: #007bff;
 }
 
-#logo,
-{font-size 24px;
-    margin-left: 20px;
+#logo
+{font-size: 60px;
+    margin-left: 20%;
 }
 nav ul{
     list-style-type: none;
@@ -92,8 +92,11 @@ nav ul li:last-child{
 }
 
 #cover-text h2,
-h3 {
+ {
     color: #fff;
+}
+h3 {
+    color: #338383 ;
 }
 
 /* About Section */
