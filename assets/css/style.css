@@ -643,7 +643,10 @@ footer {
     padding: 20px;
     text-align: center;
 }
-
+.horizontal-icons {
+    display: flex;
+    flex-direction: row;
+}
 ul.social-network-icon {
     list-style: none;
     padding: 5%;
