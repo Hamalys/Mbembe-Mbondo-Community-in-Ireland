@@ -1,62 +1,37 @@
-@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,300;1,300&family=Lato:ital,wght@1,100&display=swap');
-
+/* Reset CSS */
 * {
     margin: 0;
     padding: 0;
     border: none;
 }
 
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,300;1,300&family=Lato:ital,wght@1,100&display=swap');
+
+/* Global Styles */
 body {
     font-family: 'Lato', sans-serif;
     font-weight: 300;
     color: #00008B;
 }
 
+h1,
+h2,
+h3 {
+    font-family: 'Bitter', serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+/* Header */
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-nav ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-}
-
-nav li {
-    margin-right: 10px;
-}
-
-h1 {
-    margin: 0;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    font-family: 'Bitter', serif;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-    color: #007bff;
-}
-
-h1,
-h2 {
-    font-family: 'Bitter', serif;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-    color: red;
-}
-
-#logo {
-    float: left;
-    font-size: 100%;
-    line-height: 75px;
-    font-size: 280%;
-}
-
-#menu,
-#logo {
+#logo,
+#menu {
     line-height: 75px;
     font-size: 280%;
 }
@@ -80,27 +55,17 @@ h2 {
     border-bottom: 1px solid #333033;
 }
 
-.board {
-    background-color: #f2f2f2;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    margin: 10px 0;
-}
-
-
+/* Cover Image */
 #hey-out {
     width: 100%;
     height: 500px;
-    background: url('assets/images/hey3.jpg') no-repeat center center ;
-    background-size: 100% auto;
+    background: url('assets/images/hey3.jpg') no-repeat center center;
     background-size: cover;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            position: relative;
-           
-        }
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
 
 #cover-text {
     background-color: rgba(0, 0, 255, 0.7);
@@ -115,419 +80,16 @@ h2 {
     z-index: 1;
 }
 
-
 #cover-text h2,
 h3 {
     color: #fff;
 }
 
-#hey-image {
-    width: 100px;
-    height: 500px;
-    background: url('../image/hey.jpg') no-repeat center center;
-    animation: bounce 5s infinite;
-}
-
-
-/* Style for the added images */
-.top-image {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 1;
-    object-fit: cover;
-}
-
-@keyframes bounce {
-
-    1%,
-    100% {
-        transform: translateY(0);
-    }
-
-    50% {
-        transform: translateY(-20px);
-    }
-}
-
-#welcome-to-mmbondo {
-    background-color: #4ec5bf;
-    padding: 20px;
-}
-
-#left-about,
-#right-about {
-    width: 90%;
-    padding: 20px;
-}
-
+/* About Section */
 .left-about-heading,
 .right-about-heading {
-    margin-bottom: 20px;
-}
-
-.left-about-heading h2,
-.right-about-heading h2 {
-    font-size: 20px;
-    color: black;
-    margin-bottom: black;
-}
-
-.left-about-heading hr,
-.right-about-heading hr {
-    border: none;
-    height: 1px;
-    background-color: #ccc;
-    margin-bottom: 10px;
-    clear: both;
-}
-
-.left-about-heading p,
-.right-about-heading p {
-    font-size: 16px;
-    color: #777;
-    font-weight: 700;
-}
-
-#center-about {
-    margin: 0 auto;
-    width: 40%;
-    padding: 20px;
-}
-
-#center-about #circle-container {
-    width: 300px;
-    height: 300px;
-    border-style: solid;
-    border-color: rgb(208, 99, 99);
-    border-width: 2px;
-    border-radius: 50%;
-    margin: 0 auto;
-}
-
-#center-about #circle-container #circle-cover-bg {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    background: url('../assets/images/hey3.jpg') no-repeat center center;
-    background-size: cover;
-}
-.tree ul {
-    padding-top: 20px;
-    position: relative;
-    text-align: center;
-    white-space: nowrap;
-}
-
-.tree li {
-    display: inline-block;
-    vertical-align: top;
-    text-align: center;
-    list-style-type: none;
-    position: relative;
-    padding: 0 10px;
-}
-
-.tree li::before,
-.tree li::after {
-    content: '';
-    position: absolute;
-    top: 0;
-    right: 50%;
-    border-top: 1px solid #ccc;
-    width: 50%;
-    height: 20px;
-}
-
-.tree li::after {
-    right: auto;
-    left: 50%;
-    border-left: 1px solid #ccc;
-}
-
-.tree li:first-child::before,
-.tree li:last-child::after {
-    border: 0;
-}
-
-.tree li:last-child::before {
-    right: auto;
-    left: 50%;
-    border-left: 1px solid #ccc;
-    width: 50%;
-}
-
-.tree li div {
-    border: 1px solid rgb(218, 137, 137);
-    padding: 10px;
-    background-color: #f2f2f2;
-}
-
-.tree li h2 {
-    font-size: 18px;
-    font-weight: bold;
-    color: #338383;
-    margin: 0;
-}
-
-.tree li p {
-    font-size: 14px;
-    color: #555;
-    margin: 10px 0;
-}
-
-.tree .management ul,
-.tree .ceo ul {
-    margin-top: 20px;
-    position: relative;
-}
-
-.tree .management ul::before,
-.tree .management ul::after,
-.tree .ceo ul::before,
-.tree .ceo ul::after {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 50%;
-    border-left: 1px solid #ccc;
-    width: 0;
-    height: 20px;
-}
-
-.tree .management ul::before,
-.tree .ceo ul::before {
-    top: -20px;
-}
-
-.tree .management ul::after,
-.tree .ceo ul::after {
-    top: 20px;
-}
-
-.tree .beneficiaries ul::before {
-    content: '';
-    position: absolute;
-    top: -20px;
-    left: 50%;
-    border-left: 1px solid #ccc;
-    width: 0;
-    height: 20px;
-}
-
-.tree .beneficiaries ul {
-    margin-top: 20px;
-    position: relative;
-}
-
-.tree {
-    background-image: url('../assets/images/hey-p.avif');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-    overflow: hidden;
-    color: #355143;
-    float: left;
-}
-
-footer {
-    background-color: hsl(117, 85%, 36%);
-    padding: 20px;
-    text-align: center;
-}
-
-.social-network-icon {
-    color: #171fa9;
-
-}
-ul.social-network-icon {
-    list-style: none;
-    padding: 5%;
-    font-size: 160%;
-}
-
-ul.social-network-icon li {
-    display: inline-block;
-    margin: 1%;
-}
-
-ul.social-network-icon li a {
-    display: inline-block;
-    width: 40px;
-    height: 40px;
-    line-height: 40px;
-    text-align: center;
-    color: #333;
-    font-size: 20px;
-    text-decoration: none;
-    border-radius: 50%;
-    background-color: #05031e;
-    transition: background-color 0.3s ease;
-}
-
-ul.social-network-icon li a:hover {
-    background-color: #007bff;
-    color: rgb(136, 23, 107);
-}
-#contact-form-section {
-    background-color: #f2f2f2;
-    padding: 20px;
-}
-
-#contact-form {
-    max-width: 600px;
-    margin: 0 auto;
-    padding: 20px;
-    background-color: #fff;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-}
-
-h2.text-center {
-    text-align: center;
-    color: #333;
-}
-
-label {
-    display: block;
-    margin-top: 10px;
-    color: #555;
-}
-
-input[type="text"],
-input[type="email"],
-textarea {
-    width: 100%;
-    padding: 10px;
-    margin-top: 5px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-}
-
-textarea {
-    height: 200px;
-}
-
-button[type="submit"] {
-    background-color: #0074d9;
-    color: #fff;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-button[type="submit"]:hover {
-    background-color: #0056b3;
-}
-
-/*about us*/
-#photos {
-    clear: both;
-    line-height: 0;
-    column-count: 2;
-    column-gap: 0;
-}
-
-#photos>img {
-    width: 100%;
-}
-
-/* for large to medium screen size from 1200px wide and down*/
-@media screen and(max-width:1200px) {
-    #welcome-mmbondo {
-        width: 65%;
-        height: 1200px;
-        margin: 0 auto;
-    }
-
-        #welcome {
-            padding: 30% 0;
-            margin: 0;
-        }
-
-    #center-about {
-        clear: both;
-        width: 100%;
-        float: left;
-        padding: 0;
-    }
-
-    #times>div {
-        width: 100%;
-        clear: both;
-        height: 150px;
-        padding: 0;
-
-    }
-
-    hr {
-        display: none;
-    }
-
-}
-
-/* for medium screen sizes from 950px wide and down */
-@media screen and (max-width: 950px) {
-    #menu {
-        clear: left;
-        float: left;
-        margin-left: 30px;
-        margin-bottom: 20px;
-        line-height: 25px;
-    }
-}
-
-#cover-text {
-    left: 0;
-}
-
-#welcome-mmbondo {
-    width: 90%;
-    height: 1200px;
-    margin: auto;
-}
-
-.left-about-heading h2,
-.right-about-heading h2 {
     width: 100%;
     text-align: center;
-}
-
-.left-about-heading p,
-.right-about-heading p {
-    text-align: center;
-    padding: 0 20px;
-}
-
-/* Style for the added images */
-.top-image {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 1;
-    object-fit: cover;
-}
-
-#welcome-to-mmbondo {
-    background-color: #f2f2f2;
-    padding: 20px;
-}
-
-#left-about,
-#right-about {
-    width: 90%;
-    padding: 20px;
-}
-
-.left-about-heading,
-.right-about-heading {
-    margin-bottom: 20px;
 }
 
 .left-about-heading h2,
@@ -570,20 +132,14 @@ button[type="submit"]:hover {
 }
 
 #center-about #circle-container #circle-cover-bg {
-    background: url('../assets/images/hey3.jpg') no-repeat center center;
-    height: 100%;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
+    background: url('../assets/images/hey3.jpg') no-repeat center center;
+    background-size: cover;
 }
 
-section {
-    background-image: url('assets/images/hey3.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    height: 100vh;
-    margin: 0;
-    padding: 0;
-}
+/* Tree Structure */
 .tree ul {
     padding-top: 20px;
     position: relative;
@@ -703,15 +259,17 @@ section {
     float: left;
 }
 
+/* Footer */
 footer {
     background-color: #f0f0f0;
     padding: 20px;
     text-align: center;
 }
-.horizontal-icons {
-    display: flex;
-    flex-direction: row;
+
+.social-network-icon {
+    color: #171fa9;
 }
+
 ul.social-network-icon {
     list-style: none;
     padding: 5%;
