@@ -161,7 +161,7 @@ h3 {
     width: 200px;
     height: 200px;
     border-radius: 50%;
-    background: url('../assets/images/hey3.jpg') no-repeat center center;
+    background: url('assets/images/hey-p.avif') no-repeat center center;
     background-size: cover;
 }
 
@@ -283,6 +283,53 @@ h3 {
     overflow: hidden;
     color: #355143;
     float: left;
+}
+
+#contact-form {
+    margin-top: 40px;
+    border-radius: 5px;
+    background-color: #323433;
+    padding: 17px;
+    margin-bottom: 20px;
+    /* margin added to push form position up footer */
+    color: white;
+}
+
+/* styling for form elements */
+input[type=text],
+input[type=email],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: horizontal
+}
+
+
+/* styled to give 3d effect on contact form submit button */
+#contact-form button[type=submit] {
+    background-color: white;
+    padding: 12px 20px;
+    border: solid;
+    border-style: groove;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* apply different color when hovered over with mouse */
+button:hover {
+
+    color: #ff0000;
+}
+
+#contact-form h2 {
+    color: #ff0000;
+
 }
 
 /* Footer */
