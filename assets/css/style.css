@@ -78,7 +78,6 @@ nav ul li:last-child{
     border-bottom: 1px solid #333033;
 }
 
-/* Cover Image */
 #hey-out {
     width: 100%;
     height: 500px;
@@ -148,14 +147,15 @@ h3 {
 }
 
 #center-about #circle-container {
-    width: 30%;
-    height: 300px;
+    width: 200%;
+    height: 200px;
     border-style: solid;
     border-color: #ccc;
     border-width: 2px;
     border-radius: 50%;
     margin: 0 auto;
 }
+
 
 #center-about #circle-container #circle-cover-bg {
     width: 200px;
@@ -423,9 +423,9 @@ ul.social-network-icon li a:hover {
     left: 0;
 }
 
-#welcome-mmbondo {
+#welcome {
     width: 90%;
-    height: 1200px;
+    height: 120px;
     margin: auto;
 }
 
