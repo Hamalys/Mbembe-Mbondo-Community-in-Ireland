@@ -8,6 +8,7 @@ Welcome to the M'MBEMBE MBONDO COMMUNITY IN IRELAND project repository. This pro
 - [M'MBEMBE MBONDO COMMUNITY IN IRELAND](#mmbembe-mbondo-community-in-ireland)
   - [Table of Contents](#table-of-contents)
   - [About](#about)
+  - [Who is Mbomndo](#who-is-mbomndo)
   - [Getting Started](#getting-started)
   - [Getting Started](#getting-started-1)
   - [Features](#features)
@@ -25,6 +26,23 @@ Welcome to the M'MBEMBE MBONDO COMMUNITY IN IRELAND project repository. This pro
 ## About
 
 The M'MBEMBE MBONDO COMMUNITY IN IRELAND project is a website that introduces the Babembe community in Ireland and sheds light on their contributions to the Irish community. It provides an overview of their mission, activities, and contact information.
+
+## Who is Mbomndo
+
+The DRC-based Mbondo, sometimes known as Mbembe or Babembe, are an ethnic group. Like other Congolese tribes, they have culture, history, and traditions. Characteristics of Mbondo tribe:
+
+1. Distribution: The Mbondo inhabit eastern and southeastern DRC. They manage DRC's eastern border region around Lake Tanganyika.
+
+2. Language: Mbondo speak their own Bantu language. Mbondo communities speak French and may speak dialects due to colonial influence.
+3. Culture: The Mbondo have a rich culture like many African tribes. Traditions in music, dance, art, and storytelling. Their social and religious life includes traditional ceremonies.
+
+4. Living: Mbondo farmers grow cassava, yams, plantains, and maize. Villages near Lake Tanganyika value fishing and hunting.
+
+5. Social Structure: Like other Bantu-speaking tribes, the Mbondo cherishes community and is patrilineal. Family and community matter.
+6. Challenges: Mbondo has faced political instability, war, and economic suffering. These factors substantially impact Mbondo life.
+7. Cultural Contributions: The Mbondo tribe enriches DRC and African culture. Their music, art, and traditions strengthen national culture.
+
+Remember that the Democratic Republic of the Congo is a big, ethnically diverse country with hundreds of ethnic groups, each with its own peculiarities. DRC and African culture have unique tribes like the Mbondo.
 
 ## Getting Started
 
